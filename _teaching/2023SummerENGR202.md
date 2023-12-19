@@ -6,6 +6,11 @@ permalink: /teaching/2023SummerENGR202
 venue: "Oregon State University, College of Engineering"
 location: "Corvallis, Oregon"
 role: "Instructor"
+date: "Summer 2023"
 ---
 
+
+Instructor for course.
+
+#Add something about course description
 
