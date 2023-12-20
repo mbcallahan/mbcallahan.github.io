@@ -12,5 +12,4 @@ date: 2023-01-01
 
 Instructor for course.
 
-#Add something about course description
 
