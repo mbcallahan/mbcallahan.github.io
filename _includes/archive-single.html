@@ -51,13 +51,33 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
+
     
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% if post.paperurl%}
+      <a href=" {{ post.paperurl }} ">[Paper]</a>
+    {% endif %}
+    {% if post.poster%}
+      <a href=" {{ post.poster }} ">[Poster]</a>
+    {% endif %}
+	{% if post.slides%}
+      <a href=" {{ post.slides }} ">[Slides]</a>
+    {% endif %}
+    {% if post.appendix%}
+      <a href=" {{ post.appendix }} ">[Appendix]</a>
+    {% endif %}
+    {% if post.pdf%}
+      <a href=" {{ post.pdf }} ">[PDF]</a>
+    {% endif %}
+	{% if post.errata%}
+      <a href=" {{ post.errata }} ">[Errata]</a>
+    {% endif %}    
+    {% if post.code%}
+      <a href=" {{ post.code }} ">[Code]</a>
+    {% endif %}
+    {% if post.bibtex%}
+      <details><summary>Bibtex</summary>
+        <pre style="white-space: normal;font-size:.7em">{{ post.bibtex }}</pre>
+      </details>
     {% endif %}
 
   </article>
