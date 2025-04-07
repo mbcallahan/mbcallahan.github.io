@@ -5,7 +5,8 @@ collection: publications
 permalink: /publication/ICASSP2025HBRCD
 date: 2025-04-06
 venue: 'IEEE International Conference on Acoustics Speech and Signal Processing (ICASSP)'
-citation: "M. Callahan, T. Vu and R. Raich, &quot;On Momentum Acceleration for Randomized Coordinate Descent in Matrix Completion,&quot; ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10888539." 
+citation: 'M. Callahan, T. Vu and R. Raich, "On Momentum Acceleration for Randomized Coordinate Descent in Matrix Completion," ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025, pp. 1-5, doi: 10.1109/ICASSP49660.2025.10888539.'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10888539'
 poster: '/files/ICASSP2025Poster.pdf'
 author: "<strong>Matthew Callahan</strong>, Trung Vu, and Raviv Raich"
 bibtex: '@inproceedings{callahan2025momentum,<br />
