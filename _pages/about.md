@@ -7,4 +7,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Matthew Callahan is a first year PhD student at Oregon State University in the signal-processing department.
+Matthew Callahan is a PhD student at Oregon State University in the signal-processing group.
